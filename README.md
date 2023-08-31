@@ -56,7 +56,7 @@ If everything goes well, the seatplans will be saved in the `output` folder.
 
 #### Author
 
-- [Mir Sazzat Hossain](https://mirsaazzathossain.me)
+- [Mir Sazzat Hossain](https://mirsazzathossain.me)
 
 #### License
 
