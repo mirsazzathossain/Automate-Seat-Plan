@@ -36,6 +36,8 @@ year: 2019
 
 #### Usage
 
+Create a folder named `data` in the root directory and save the csv files in it as described above. Update the configuration file with the correct file names and other parameters. And finally, run the code.
+
 To run the code, simply execute the following command:
 
 ```bash
