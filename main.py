@@ -105,7 +105,7 @@ def create_doc(
             # Add the room number
             room_number = rooms['Rooms'][i]
             room_para = doc.add_paragraph()
-            room_run = room_para.add_run(f"Room {room_number}")
+            room_run = room_para.add_run(f"Room: {room_number}")
             room_run.bold = True
             room_run.font.size = Pt(14)
             room_run.font.name = 'Times New Roman'
@@ -141,14 +141,14 @@ def create_doc(
             # Add the students to the table
             for j in range(room_students.shape[0]):
                 table.rows[j+1].cells[0].text = str(
-                        room_students['ID'].iloc[j]
-                    )
+                    room_students['ID'].iloc[j]
+                )
                 table.rows[j+1].cells[1].text = str(
-                        room_students['Name'].iloc[j]
-                    )
+                    room_students['Name'].iloc[j]
+                )
                 table.rows[j+1].cells[2].text = str(
-                        room_students['Section'].iloc[j]
-                    )
+                    room_students['Section'].iloc[j]
+                )
 
                 # Add the signature cell if needed
                 if doc == doc_sign_sheet:
