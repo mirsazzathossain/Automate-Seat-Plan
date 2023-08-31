@@ -1,6 +1,6 @@
 #### Automate the Boring Stuff with Python
 
-This repository contains the code for automatically prepare seatplans for exams. It will read the student list and room names from csv files and generate a seatplan for each room along with a signatur sheet for the room supervisor. The result will be saved as docx files.
+This repository contains the code for automatically prepare seatplans for exams. It will read the student list and room names from csv files and generate a seatplan for each room along with a signatur sheet for the room supervisor. The result will be saved as docx and pdf files in the `results` folder.
 
 #### Data requirements
 
