@@ -1,0 +1,6 @@
+rooms_file_path: data/rooms.csv
+students_file_path: data/student_list.csv
+course_code: CSE213
+exam_type: Final
+semester: Summer
+year: 2023
