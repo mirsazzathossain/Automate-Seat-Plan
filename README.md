@@ -50,6 +50,7 @@ If everything goes well, the seatplans will be saved in the `output` folder.
 
 - Python 3.6+
 - python-docx
+- docx2pdf
 - pandas
 - pyyaml
 

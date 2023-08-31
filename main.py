@@ -13,6 +13,7 @@ import yaml
 import pandas as pd
 from docx import Document
 from docx.shared import Inches, Pt, Cm
+from docx2pdf import convert
 
 
 def shuffle_students(students: pd.DataFrame) -> pd.DataFrame:
@@ -193,6 +194,10 @@ def create_doc(
     # Save the documents
     doc_seat_plan.save(f"results/{seat_plan_file_name}")
     doc_sign_sheet.save(f"results/{sign_sheet_file_name}")
+
+    # Convert the documents to pdf
+    convert(f"results/{seat_plan_file_name}")
+    convert(f"results/{sign_sheet_file_name}")
 
 
 if __name__ == '__main__':
